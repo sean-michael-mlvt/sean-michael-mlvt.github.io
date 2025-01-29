@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Geist:wght@100..900&display=swap');
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Geist, Helvetica, sans-serif;
+    color: #27374D;
+    background-color: #edf1f3;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main div {
+    width: min(80%, 1500px);
+}
+
+/* Nav Styles */
+nav {
+    background-color: #526D82;
+    border-bottom: solid 4px #27374D;
+    display: flex;
+    gap: 1rem;
+    padding: .5rem 1rem;
+}
+
+nav p, nav a {
+    font-family: Electrolize, Helvetica, sans-serif;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #526D82;
+    border-top: 4px solid #27374D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    padding: .5rem 1rem;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    gap: 4em;
+}
+
+.splash > div {
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.splash h1 {
+    font-family: Electrolize, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.splash img {
+    border: solid black 2px;
+    border-radius: 12px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.splash p {
+    font-style: italic;
+}
+
+/* Horizontal Rules */
+hr {
+    border: solid 2px;
+    border-color: #27374D;
+}
+
+/* Sections */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: min(80%, 1000px);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: Electrolize, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    color: #27374D;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: Geist, Helvetica, sans-serif;
+}
+
+#educationParagraph {
+    max-width: 500px;
+}
+
+/* link styles */
+section a {
+    color: #51397c;
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style: circle;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    
+}
+dl div {
+    border: solid 1px black;
+    padding: 1em;
+}
+dl dt{
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+dl dd{
+    text-align: center;
+    margin: 0;
+}   
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px black;
+    padding: 2em;
+}
+
+.card img {
+    object-fit: fill;
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+form {}
+
+form input, form textarea {
+    max-width: 500px;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    max-width: 500px;
+}
+
+form button:hover {}
+
+
+.ty-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.one-col-ty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 80%;
+}
+.ty-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.ty-links button, .ty-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: x-large;
+    padding: .5em 1em;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.ty-links a:hover {
+    box-shadow: 0px 0px 4px;
+    cursor: pointer;
+}
+
+.backlink {
+    width: fil;
+}
+
+.centerer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
