@@ -206,6 +206,11 @@ form button {
     max-width: 500px;
 }
 
+form button a {
+    text-decoration: none;
+    color: #000000;
+}
+
 form button:hover {}
 
 #contactFooter {
