@@ -6,6 +6,7 @@ body {
     font-family: Geist, Helvetica, sans-serif;
     color: #27374D;
     background-color: #edf1f3;
+    min-height: 100vh;
 }
 main {
     display: flex;
@@ -206,6 +207,13 @@ form button {
 }
 
 form button:hover {}
+
+#contactFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 
 .ty-body {
